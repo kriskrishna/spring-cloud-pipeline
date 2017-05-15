@@ -1,9 +1,13 @@
 #!/bin/bash
 
+echo "Starting to exec"
+
 VERSION=1.0.0.M1-`date +%Y%m%d_%H%M%S`-VERSION
 MESSAGE="[Concourse CI] Bump to Next Version ($VERSION)"
 
 cd out
+
+echo `ls -al`
 
 cp -r ../version/. ./
 echo "Bump to ${VERSION}"
