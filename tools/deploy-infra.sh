@@ -13,7 +13,8 @@
 set -o errexit
 
 if [[ $# -lt 1 ]]; then
-	DEST_DIR="$( mktemp -d )"
+	#DEST_DIR="$( mktemp -d )"
+	DEST_DIR=`mktemp -d 2>/dev/null || mktemp -d -t 'mytmpdir'`
 else
 	DEST_DIR="$1"
 fi
