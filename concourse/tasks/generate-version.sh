@@ -7,7 +7,7 @@ MESSAGE="[Concourse CI] Bump to Next Version ($VERSION)"
 
 cd out
 
-echo `ls -al`
+echo "$(ls -al)"
 
 cp -r ../version/. ./
 echo "Bump to ${VERSION}"
