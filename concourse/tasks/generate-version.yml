@@ -5,8 +5,8 @@ image_resource:
   source:
     #repository: springcloud/pipeline-base
     repository: localhost:5000/local-base-pipeline
-      tag: "latest"
-      insecure_registries: [ "localhost:5000" ]
+      #tag: "latest"
+      #insecure_registries: [ "localhost:5000" ]
 
 inputs:
   - name: version
