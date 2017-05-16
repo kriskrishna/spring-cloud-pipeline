@@ -5,7 +5,7 @@ image_resource:
   source:
     #repository: springcloud/pipeline-base
     repository: 192.168.11.1:5000/local-base-pipeline
-      #tag: "latest"
+      tag: "latest"
       insecure_registries: [ "192.168.11.1:5000" ]
 
 inputs:
