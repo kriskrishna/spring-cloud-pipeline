@@ -17,6 +17,7 @@ resources:
    source:
     uri: {{tools-scripts-url}}
     branch: {{tools-branch}}
+    private_key: {{tools-private-key}}
  - name: m2
    type: docker-image
    source:
