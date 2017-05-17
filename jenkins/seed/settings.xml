@@ -2,7 +2,7 @@
 <settings>
 	<servers>
 		<server>
-			<id>artifactory-local</id>
+			<id>1f6bfa683c97</id>
 			<username>admin</username>
 			<password>password</password>
 		</server>
